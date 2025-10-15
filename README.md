@@ -5,8 +5,7 @@
 
 We present a model for inferring where users look during interaction based on keypress data only. Given a key log, it outputs a scanpath
 that tells, moment-by-moment, how the user had moved eyes while entering those keys. The model can be used as a proxy for human
-data in cases where collecting real eye tracking data is expensive or impossible
-
+data in cases where collecting real eye tracking data is expensive or impossible. For full details, see our paper: [**WigglyEyes: Inferring Eye Movements from Keypress Data**](https://dl.acm.org/doi/pdf/10.1145/3715071.3750430)
 ## Installation
 
 [//]: # (first create a conda env with python3.8, then pip install -r requirements.txt)
